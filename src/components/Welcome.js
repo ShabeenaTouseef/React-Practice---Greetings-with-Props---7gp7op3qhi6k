@@ -1,5 +1,7 @@
 // write code for Welcome component here
-function Welcome(props){
+import React from 'react';
+const Welcome=(props)=>{//
+  const {name}=props
   return(
     <>
   <h1>Hey! {props.name}</h1>
